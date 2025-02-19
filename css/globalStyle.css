@@ -12,9 +12,14 @@ h1{
   border-color: black;
   text-align: center;
 }
+nav ul li {
+  display:inline
+}
 nav ul a{
   text-decoration: none;
   color: black;
+  border-style: ridge;
+  border-color: black;
 }
 a:hover{
   text-decoration: underline;
@@ -41,9 +46,7 @@ a:link:hover {
   border-style: wave;
   border-color: red;
 }
-nav ul li {
-  display:inline
-}
+
 
 
 
