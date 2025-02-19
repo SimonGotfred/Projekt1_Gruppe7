@@ -1,0 +1,23 @@
+html, body {
+  background-color: #e1eeee;
+  font-size: 16px;
+  font-family: "Bookman Old Style", serif;
+}
+#navigation-bar{
+  position: relative;
+  background-color: #5ae7ff;
+  border-color: black;
+  border-style: double;
+}
+.iFrame{
+  border-style : double;
+  background-color: #eeeeee;
+  border-color: #555555;
+}
+.A{
+  border-style: wave;
+  border-color: red;
+}
+
+
+
