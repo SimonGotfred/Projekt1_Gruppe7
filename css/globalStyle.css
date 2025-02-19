@@ -3,15 +3,24 @@ html, body {
   font-size: 16px;
   font-family: "Bookman Old Style", serif;
 }
-a:link{
-  text-decoration: none;
-  text-decoration-color: black;
+h1{
+  border-style: double;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: #C0392B;
+  color: black;
+  border-color: black;
+  text-align: center;
 }
-a:link:visited, a:link:active{
+a{
   text-decoration: none;
-  text-decoration-color: #2C3E50;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
 
-}
 a:link:hover {
   text-decoration: underline;
   text-decoration-color: #2C3E50;
@@ -26,7 +35,7 @@ a:link:hover {
   height: 100vh;
   width: 100vw;
   border: none;
-  background-color: #2C3E50;
+  background-color: #ffefa9;
 }
 .A{
   border-style: wave;
