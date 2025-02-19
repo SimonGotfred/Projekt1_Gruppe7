@@ -1,18 +1,32 @@
 html, body {
-  background-color: #e1eeee;
+  background-color: #5D6D7E;
   font-size: 16px;
   font-family: "Bookman Old Style", serif;
 }
+a:link{
+  text-decoration: none;
+  text-decoration-color: black;
+}
+a:link:visited, a:link:active{
+  text-decoration: none;
+  text-decoration-color: #2C3E50;
+
+}
+a:link:hover {
+  text-decoration: underline;
+  text-decoration-color: #2C3E50;
+}
 #navigation-bar{
   position: relative;
-  background-color: #5ae7ff;
+  background-color: #F4D03F;
   border-color: black;
   border-style: double;
 }
 .iFrame{
-  border-style : double;
-  background-color: #eeeeee;
-  border-color: #555555;
+  height: 100vh;
+  width: 100vw;
+  border: none;
+  background-color: #2C3E50;
 }
 .A{
   border-style: wave;
@@ -21,6 +35,9 @@ html, body {
 nav ul li {
   display:inline
 }
+
+
+
 
 
 
