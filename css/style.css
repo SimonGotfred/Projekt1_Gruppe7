@@ -1,0 +1,93 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* Header and Navigation */
+header {
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #979797;
+}
+
+/* Hero Section */
+.hero {
+}
+
+/* Main Content Section */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+/* Each row contains a header and two text boxes */
+.content-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+/* Left-Aligned Header */
+.main-header {
+  text-align: left;
+}
+
+.main-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Right-Aligned Text Boxes */
+.content-boxes {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.text-box {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+
+/* Footer */
+footer {
+  padding: 20px;
+}
