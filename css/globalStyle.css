@@ -1,7 +1,9 @@
 html, body {
-  background-color: #5D6D7E;
+  background-color: wheat;
   font-size: 16px;
-  font-family: "Bookman Old Style", serif;
+  color: #98430b;
+
+
 
 }
 
@@ -10,29 +12,39 @@ html, body {
   overflow-y: hidden;
 }
 
-h1{
+
+
+#navigation-h1{
   border-style: double;
   border-radius: 10px;
   border-width: 2px;
-  background-color: #C0392B;
-  color: black;
-  border-color: black;
+  background-color: burlywood;
+  color: #98430b;
+  border-color: wheat;
   text-align: center;
+}
+img{
+  border-style: solid double;
+  border-width: 7px;
+  border-color: #98430b;;
 }
 nav ul li {
   display:inline
+}
+a{
+  color: #98430b;
 }
 /*https://menuhover.com/ some inspiration from this website*/
 nav ul a{
   text-decoration: none;
   font-size: 20px;
-  color: black;
+  color: #98430b;
   padding: 10px 20px;
   margin: 0 5px;
   position: relative;
   overflow: hidden;
   border-style: solid;
-  border-color: transparent black ;
+  border-color: burlywood;
 }
 nav ul a::after {
   content: "";
@@ -40,9 +52,16 @@ nav ul a::after {
   left: 0;
   bottom: 0;
   height: 8px;
-  background-color: #C0392B ;
+  background-color: #ea751a;
   width: 0;
   transition: width 0.3s ease;
+}
+nav ul a:hover{
+  color: #ea751a;
+  font-weight: bold;
+  border-style: double;
+  border-color: transparent #98430b;
+  border-width: 2px;
 }
 nav ul a:hover::after {
   width: 100%;
@@ -59,7 +78,8 @@ nav ul a:hover::after {
 }
 a:hover{
   text-decoration: underline;
-  color: darkred;
+  color: #ea751a;
+  font-weight: bold;
 }
 
 a:link:hover {
@@ -68,19 +88,17 @@ a:link:hover {
 }
 #navigation-bar{
   position: relative;
-  background-color: #F4D03F;
-  border-color: black;
+  background-color: burlywood;
+  border-color: wheat;
   border-style: double;
+  border-radius: 10px;
 }
 .iFrame{
   height: 100vh;
   width: 100vw;
   border: none;
 }
-.A{
-  border-style: wave;
-  border-color: red;
-}
+
 
 
 
