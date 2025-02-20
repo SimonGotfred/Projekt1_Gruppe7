@@ -16,6 +16,7 @@ h1{
 nav ul li {
   display:inline
 }
+/*https://menuhover.com/ some inspiration from this website*/
 nav ul a{
   text-decoration: none;
   font-size: 20px;
@@ -74,7 +75,6 @@ a:link:hover {
   border-style: wave;
   border-color: red;
 }
-
 
 
 
