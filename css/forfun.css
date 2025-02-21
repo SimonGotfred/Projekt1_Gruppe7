@@ -16,9 +16,9 @@ body {
   transition: background-color 1000ms;
 }
 
-body:has(.card[data-color="blue"]:hover) {
+/*body:has(.card[data-color="blue"]:hover) {
   background-color: rgb(var(--blue-rgb) / 25%);
-}
+}*/
 
 
 /*#cards {
