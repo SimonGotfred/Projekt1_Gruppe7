@@ -26,7 +26,7 @@
   }*/
   .content-container {
     display: flex; /* Flexbox til at arrangere tekst og billede side om side */
-    align-items: center; /* Centrerer tekst og billede vertikalt */
+
    /* justify-content: space-between; /* Giver plads mellem tekst og billede */
   /*  padding: 2rem;
   /*  gap: 2rem; /* Plads mellem tekst og billede */
@@ -34,6 +34,9 @@
   }
 
   .text-content {
+    font-size: 1vi;
+    position: absolute;
+    text-align: left;
     display: flex;
     flex-direction: column;
    align-items: flex-start;
@@ -50,7 +53,7 @@
   @media (max-width: 768px) {
     .content-container {
       flex-direction: column; /* Stabler tekst og billede vertikalt på mindre skærme */
-      text-align: center;
+
     }
 
     .image-right {
@@ -58,17 +61,7 @@
       margin: 1rem auto;
     }
   }
-</style>
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
-<main>
-<div class="main-container" >
-<div class="content-container">
-  <div class="text-content" >
-    <h1 >
+ /* <h1 >
     Hvorfor er det en god idé at mindske dit madspild?:
     </h1>
     <p >
@@ -79,21 +72,38 @@
     - Du vil opføre dig ansvarligt i en verden, hvor på verdensplan ca. hver<br>&nbsp 9. barn, kvinde og mand mangler mad.<br>
     - Du vil være med til at inspirere din omgangskreds og på lang sigt hele<br>&nbsp fødevareværdikæden til at mindske madspild.<br>
     </p>
-    <a title="Info Om Madspild" href = "infofoodwaste.html" style=" padding-left: 8.3em; float: left;">læs mere om madspild her</a>
+    <a title="Info Om Madspild" href = "infofoodwaste.html" style=" padding-left: 8.3em; float: left;">læs mere om madspild her</a>*/
+</style>
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<main>
+<div class="main-container" >
+<div class="content-container">
+  <div class="text-content" style="top: 5vi;left: 8vi;">
+    <h1 >
+      Hvem er vi?
+    </h1>
+    <p >
+      Vi er en gruppe pationerede unge der prøver at informere folk om problemerne omkring<br> madspild i verdenen.<br>
+      Udover det vil vi også vise folk at der er et problem som kan bekæmpes derhjemme og<br> komme med gode løsninger til hvordan folk kan mindske madspild i deres eget hjem.
+    </p>
 
   </div>
   <div id="cards">
-    <div class="card" data-color="blue" style="float: right">
-      <img class="card-front-image card-image" src="../img/madspild.jpg" />
+    <div class="card" data-color="blue" style="left: 55vi; top: 5vi;">
+      <img class="card-front-image card-image" src="../img/Kontakt2.png" />
       <div class="card-faders">
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
-        <img class="card-fader card-image" src="../img/madspild.jpg" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
+        <img class="card-fader card-image" src="../img/Kontakt2.png" />
       </div>
     </div>
   </div>
@@ -101,7 +111,7 @@
 
 <div class="content-container">
   <div id="cards1">
-    <div class="card" data-color="blue" style="float: left">
+    <div class="card" data-color="blue" style="left: 8vi; top: 30vi;">
       <img class="card-front-image card-image" src="../img/madspild.jpg" />
       <div class="card-faders">
         <img class="card-fader card-image" src="../img/madspild.jpg" />
@@ -115,7 +125,7 @@
       </div>
     </div>
   </div>
-  <div class="text-content" >
+  <div class="text-content"style="top: 30vi;left: 55vi;" >
 
     <h1  >Hvad kan du gøre for at mindske madspild?</h1>
     <p >gør dette. . . (organisationer, link til side med organisationer, <br>opskrifter, link til side med opskrifter)</p>
