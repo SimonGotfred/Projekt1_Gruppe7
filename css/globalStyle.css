@@ -92,6 +92,7 @@ a:link:hover {
   border-color: wheat;
   border-style: double;
   border-radius: 10px;
+  text-align: center;
 }
 .iFrame{
   height: 84vh;
