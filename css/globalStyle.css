@@ -12,8 +12,6 @@ html, body {
   overflow-y: hidden;
 }
 
-
-
 #navigation-h1{
   border-style: double;
   border-radius: 10px;
@@ -100,6 +98,11 @@ a:link:hover {
   border: none;
 }
 
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
